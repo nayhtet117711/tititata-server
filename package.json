@@ -1,0 +1,27 @@
+{
+  "name": "tititata-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "date-fns": "^2.10.0",
+    "date-fns-tz": "^1.0.10",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "node-fetch": "^2.6.0",
+    "query-string": "^6.10.1",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "socket.io-json-parser": "^2.1.0",
+    "uuid": "^8.3.0"
+  }
+}
